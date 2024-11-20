@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória Cavalcante de Souza - Gestão de processos e Requisitos</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/estilo.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">VC</h1>
+        </a>
+
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">Jogo Bulls and Cows</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Me chamo Vitória Cavalcante.</h1>
+            <p>Sou estudante de Sistemas para Internet, com experiência prática em gestão de projetos, análise de requisitos e desenvolvimento de soluções tecnológicas. Tenho paixão por criar processos eficientes, implementar metodologias ágeis e encontrar soluções práticas que gerem impacto positivo. Atualmente, trabalho com automação de processos, testes de usabilidade e organização de fluxos de trabalho, sempre buscando aprimorar a colaboração e os resultados das equipes.</p>
+            <P>Vamos conversar?  😊</P>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/vit%C3%B3ria-cavalcante-225b36285/" title="Ir para o LinkedIn"
+                        target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5581988817433" title="Iniciar conversa no WhatsApp">
+                        <I class="fab fa-whatsapp"></I>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Vitoriacdds?tab=projects" title="Ir para o github"
+                        title="Ir para o Github" target="_blank">
+                        <I class="fab fa-github"></I>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto sombra-interna"></div>
+            <img src="./src/imagens/_MG_2309.PNG" alt="Foto de Portfólio">
+        </div>
+
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="Titulo"></h2>
+
+        <div class="container-projetos">
+            <div class="projeto ativo"></div>
+            <a href=""></a>
+        </div>
+    </section>
+    <div class="jogoBC">
+        <h2>Jogo Bulls and Cows</h2>
+        <p>Digite um número de 4 dígitos únicos:</p>
+        <input id="inputGuess" type="text" maxlength="4" />
+        <button id="btSubmit">Enviar</button>
+        <p id="feedback"></p>
+        <ul id="attemptsList"></ul>
+        <button id="restartGame">Reiniciar Jogo</button>
+    </div>
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
